@@ -5,6 +5,7 @@ public class Cuenta {
 
 	public Cuenta(double d) {
 		// TODO Auto-generated constructor stub
+		saldo = d;
 	}
 
 	public Double getSaldo() {
@@ -14,17 +15,17 @@ public class Cuenta {
 
 	public void setSaldo(double d) {
 		// TODO Auto-generated method stub
-		
+		saldo = d;
 	}
 
 	public void ingresar(double d) {
 		// TODO Auto-generated method stub
-		saldo = 500.0;
+		saldo += d;
 	}
 
 	public void reintegrar(double d) {
 		// TODO Auto-generated method stub
-		saldo = -500.0;
+		saldo -= d;
 	}
 
 }
