@@ -70,4 +70,6 @@ class CuentaTest {
 	        cuenta12345.reintegrar(200.0);
 	        assertEquals(-250.0, cuenta12345.getSaldo());
 	    }
+	    
+	    
 }
